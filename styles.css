@@ -1,35 +1,54 @@
+/* 極簡風格設計 */
+
 body {
     font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
+    background-color: #f8f9fa;
     width: 100%;
+    padding: 1em;
     text-align: center;
+    border-bottom: 1px solid #e9ecef;
 }
 
 main {
     padding: 2em;
-    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-button {
+section {
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+pre {
+    background-color: #f8f9fa;
     padding: 1em;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+    position: fixed;
+    bottom: 0;
 }
 
 button:hover {
