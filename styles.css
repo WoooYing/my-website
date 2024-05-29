@@ -28,14 +28,19 @@ main {
 
 section {
     margin-bottom: 2em;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     margin-top: 0;
+    color: #333333;
 }
 
 pre {
-    background-color: #f8f9fa;
+    background-color: #e9ecef;
     padding: 1em;
     border-radius: 5px;
     overflow-x: auto;
@@ -49,8 +54,4 @@ footer {
     border-top: 1px solid #e9ecef;
     position: fixed;
     bottom: 0;
-}
-
-button:hover {
-    background-color: #45a049;
 }
